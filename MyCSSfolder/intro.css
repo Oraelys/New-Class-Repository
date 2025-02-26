@@ -1,0 +1,36 @@
+/* selector {
+    property: value;
+} */
+
+
+p {
+
+    font-size: 16px;
+    background-color: green;
+}
+
+h1 {
+    color: red;
+}
+
+.beginText {
+    color: orange;
+    background-color: gray;
+}
+
+.Text {
+    color: blue;
+}
+
+#para {
+    color: blue;
+    background-color: aqua;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}

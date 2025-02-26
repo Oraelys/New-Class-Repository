@@ -9,6 +9,16 @@
 </head>
 
 <body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h6>This is the change </h6><span> <b>Hi there</b></span><span>Hi there</span>
     <h1> <i>Another Header</i></h1>
 
@@ -71,6 +81,38 @@
         </tr>
     </table>
     <input type="number" name="age" min="18" step="1">
+
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <input type="radio" name="gender" value="female"> Female
+
+        <select name="country">
+            <option value="us">USA</option>
+            <option value="uk">UK</option>
+            <option value="nig">NG</option>
+            <option value="brzl">BRZ</option>
+        </select>
+
+        <textarea name="comments" rows="2" cols="50"></textarea>
+        <input type="number" name="age" min="18" step="1">
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+
 </body>
 
 </html>

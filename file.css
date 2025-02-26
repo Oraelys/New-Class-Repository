@@ -1,0 +1,51 @@
+.v1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.num-con {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name-con {
+    display: flex;
+    flex-direction: column;
+
+}
+
+p {
+    font-size: 14px;
+    height: 150px;
+    width: 150px;
+}
+
+.p1 {
+    background-color: brown;
+
+}
+
+.p2 {
+    background-color: blue;
+
+}
+
+.p3 {
+    background-color: yellow;
+
+}
