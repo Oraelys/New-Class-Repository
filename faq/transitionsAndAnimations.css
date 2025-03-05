@@ -1,0 +1,48 @@
+body {
+    margin-left: 50px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #3dccc7;
+    margin: 12px;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+    transition-duration: 1s;
+    transition-property: width, background, transform;
+    /* transition: 0.5s; */
+    /* transition-delay: 2s; */
+    /* animation: bounce 2s infinite;
+    transition: background-color 0.5s ease-in-out; */
+
+}
+
+.box:hover {
+    background-color: #ff68bb;
+    width: 200px;
+
+
+}
+
+/* .box:active {
+    width: 300px;
+} */
+
+.box-1:hover {
+    /* transition-timing-function: step-start; */
+    transition-timing-function: ease-in-out;
+    /* transform: rotate(360deg); */
+}
+
+
+.box-2:hover {
+    transition-timing-function: ease-out;
+}
+
+
+.box-3:hover {
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+
+}

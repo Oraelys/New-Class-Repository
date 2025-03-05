@@ -1,0 +1,75 @@
+@media (max-width: 1366px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: blue;
+    }
+
+
+}
+
+.container {
+    transition: 0.5s;
+}
+
+/* @media (max-width: 400px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: red;
+    }
+}
+
+@media (max-width: 350px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: orange;
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 250px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: green;
+    }
+}
+
+@media (max-width: 200px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 150px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: indigo;
+    }
+}
+
+@media (max-width: 100px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: violet;
+    }
+} */
+
+@media (max-width:600px) {
+    .form {
+        display: block;
+    }
+}
