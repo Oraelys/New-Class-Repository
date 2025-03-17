@@ -6,11 +6,12 @@
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    font-size: 15px;
+    font-size: 1.25em;
+    padding: 20px;
 }
 
 .logo {
-    margin-left: 150px;
+    margin-left: 5em;
     color: #f9faf8;
 }
 
@@ -69,6 +70,9 @@
 
 .sec-1 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     margin-top: 50px;
 }
 
@@ -88,8 +92,17 @@
     opacity: 100%;
 }
 
+.info {
+    margin: 10px;
+    width: 200px;
+}
+
+.Middle {
+    text-align: center;
+    padding: 20px;
+}
+
 .Middle .info {
-    /* display: flex; */
     justify-self: center;
 }
 
@@ -113,7 +126,6 @@
     width: 120px;
     font-size: 10px;
     color: gray;
-    justify-content: center;
     margin-top: 3px;
 }
 
@@ -122,7 +134,7 @@
     justify-content: space-between;
     width: 600px;
     justify-self: center;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
 }
 
 .quote {
@@ -131,13 +143,11 @@
     height: 300px;
     background-color: #e5e7eb;
     margin: 0px;
-
     justify-content: center;
     align-items: center;
 }
 
 .quote .text-box {
-
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
@@ -149,12 +159,4 @@
 .quote .author {
     justify-self: flex-end;
     align-self: flex-end;
-}
-
-
-@media (max-width:400px) {
-    .logo {
-        margin-left: 1em;
-    }
-
 }

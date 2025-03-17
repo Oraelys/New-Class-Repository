@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tailwind Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-700">Brand</h1>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-800">Services</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-blue-500 text-white text-center py-20">
+        <h2 class="text-4xl font-bold">Welcome to Our Website</h2>
+        <p class="mt-4 text-lg">A modern responsive webpage built with Tailwind CSS</p>
+    </header>
+
+    <section class="container mx-auto my-12 px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-md p-6 rounded-lg">
+            <h3 class="text-xl font-semibold">Feature One</h3>
+            <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="bg-white shadow-md p-6 rounded-lg">
+            <h3 class="text-xl font-semibold">Feature Two</h3>
+            <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="bg-white shadow-md p-6 rounded-lg">
+            <h3 class="text-xl font-semibold">Feature Three</h3>
+            <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
